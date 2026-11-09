@@ -7,8 +7,8 @@
 ## Android 下载
 
 - [查看全部版本](https://github.com/as7er/fmmv-releases/releases)
-- [v0.3.1-android.1 射门与进球修复测试版](https://github.com/as7er/fmmv-releases/releases/tag/v0.3.1-android.1)
-- [直接下载测试 APK](https://github.com/as7er/fmmv-releases/releases/download/v0.3.1-android.1/FMMV-0.3.1-android.1-debug.apk)
+- [v0.3.1-android.2 规范Release构建包](https://github.com/as7er/fmmv-releases/releases/tag/v0.3.1-android.2)
+- [直接下载通用 APK](https://github.com/as7er/fmmv-releases/releases/download/v0.3.1-android.2/FMMV_android_0.3.1%2B4_universal.apk)
 
 在 Release 页展开 **Assets**，下载以 `.apk` 结尾的文件。GitHub 自动生成的 `Source code.zip` / `tar.gz` 只包含本仓库的说明文件，不是游戏安装包，也不包含游戏源代码。
 
@@ -17,7 +17,7 @@
 - Android 7.0（API 24）或以上；Android System WebView 请保持更新。
 - 下载后在手机文件管理器中打开 APK，按系统提示允许该来源安装应用。
 - 不需要 Expo Go，也不需要电脑持续运行服务器；游戏资源随 APK 安装。
-- 当前包使用 **Debug 测试签名**，属于 **Pre-release**，不是商店正式版。
+- 当前为 **Release构建、兼容测试签名**：应用与WebView调试已关闭，为覆盖安装沿用原Debug证书，仍为Pre-release，不是正式发布密钥或商店正式版。
 
 ## 测试版变化
 
@@ -26,6 +26,7 @@
 - 横屏采用左右操作栏，球场使用完整高度；保留完整球场比例，减少装饰看台。
 - 844×390 视口下草皮面积较之前增加约 67%；常规桌面和平板保留原布局。
 - 0.3.1／构建号3修正不合理远射选择，以及球从门柱外越线却显示GOAL的问题；射门选择现在考虑真实距离、角度、射门能力与决策。保留构建号2的防锁屏修复，支持同签名覆盖升级。
+- 构建号4规范发行：`FMMV_android_0.3.1+4_universal.apk`，依次表示应用、平台、版本＋构建号、通用架构。当前无CPU专用.so库，只需下载一个APK；附带SHA256SUMS.txt。游戏逻辑与构建号3相同。
 
 ## 已知限制与存档提醒
 
