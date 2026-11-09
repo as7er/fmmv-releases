@@ -7,8 +7,8 @@
 ## Android 下载
 
 - [查看全部版本](https://github.com/as7er/fmmv-releases/releases)
-- [v0.3.0-android.2 防锁屏修复测试版](https://github.com/as7er/fmmv-releases/releases/tag/v0.3.0-android.2)
-- [直接下载测试 APK](https://github.com/as7er/fmmv-releases/releases/download/v0.3.0-android.2/FMMV-0.3.0-android.2-debug.apk)
+- [v0.3.1-android.1 射门与进球修复测试版](https://github.com/as7er/fmmv-releases/releases/tag/v0.3.1-android.1)
+- [直接下载测试 APK](https://github.com/as7er/fmmv-releases/releases/download/v0.3.1-android.1/FMMV-0.3.1-android.1-debug.apk)
 
 在 Release 页展开 **Assets**，下载以 `.apk` 结尾的文件。GitHub 自动生成的 `Source code.zip` / `tar.gz` 只包含本仓库的说明文件，不是游戏安装包，也不包含游戏源代码。
 
@@ -25,6 +25,7 @@
 - Android构建号2修复观赛时自动熄屏：比赛页在前台保持亮屏，离开比赛或转后台后正常休眠，手动电源键锁屏不受影响。沿用原测试签名，直接覆盖安装，不要卸载旧版。
 - 横屏采用左右操作栏，球场使用完整高度；保留完整球场比例，减少装饰看台。
 - 844×390 视口下草皮面积较之前增加约 67%；常规桌面和平板保留原布局。
+- 0.3.1／构建号3修正不合理远射选择，以及球从门柱外越线却显示GOAL的问题；射门选择现在考虑真实距离、角度、射门能力与决策。保留构建号2的防锁屏修复，支持同签名覆盖升级。
 
 ## 已知限制与存档提醒
 
